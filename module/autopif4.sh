@@ -173,17 +173,6 @@ echo "$SECURITY_PATCH";
 item "Adding corresponding first API level ...";
 case $DEVICE in
   bluejay) DEVICE_INITIAL_SDK_INT=32;; # Pixel 6a
-  panther|cheetah) DEVICE_INITIAL_SDK_INT=33;; # Pixel 7 Series
-  lynx) DEVICE_INITIAL_SDK_INT=33;; # Pixel 7a
-  felix) DEVICE_INITIAL_SDK_INT=33;; # Pixel Fold
-  tangorpro) DEVICE_INITIAL_SDK_INT=33;; # Pixel Tablet
-  shiba|husky) DEVICE_INITIAL_SDK_INT=34;; # Pixel 8 Series
-  akita) DEVICE_INITIAL_SDK_INT=34;; # Pixel 8a
-  tokay|caiman|komodo|comet) DEVICE_INITIAL_SDK_INT=34;; # Pixel 9 Series
-  tegu) DEVICE_INITIAL_SDK_INT=35;; # Pixel 9a
-  frankel|blazer|mustang|rango) DEVICE_INITIAL_SDK_INT=36;; # Pixel 10 Series
-  stallion) DEVICE_INITIAL_SDK_INT=35;; # Pixel 10a; Actual 36
-  cubs|grizzly|kodiak|yogi) DEVICE_INITIAL_SDK_INT=37;; # Pixel 11 Series
   *) DEVICE_INITIAL_SDK_INT=37;;
 esac;
 echo "$DEVICE_INITIAL_SDK_INT";
